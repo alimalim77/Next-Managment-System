@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import NavBar from "@/components/NavBar";
 import Login from "@/components/Index";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="max-w-3xl mx-auto p-4">
           {/* <Login /> */}
-          <Navbar />
+          <NavBar />
           <div className="mt-8">{children}</div>
         </div>
       </body>
